@@ -17,6 +17,11 @@ header {
   border-bottom: 1px solid seashell;
 
 }
+div{
+  display: flex;
+  height: 69px;
+  width: 650px;
+}
 
 #logo {
   display: inline-flex;
@@ -30,14 +35,16 @@ nav{
   display: block;
   justify-content: flex-end;
   height: 69px;
-  width: 1200px;
+  width: 550px;
+
 }
 
 ul {
   display: flex;
   justify-content: flex-end;
   height: 69px;
-  width: 900px;
+  width: 650px;
+
 }
 
  li {
@@ -47,6 +54,8 @@ ul {
   width: 150px;
   height: 69px;
   font-size: 22px;
+
+
 }
 
 a {
@@ -77,16 +86,11 @@ header {
   align-items: center;
   position: fixed;
 }
-
-
 nav ul li {
   display: inline-block;
   justify-content: space-between;
   list-style-type: none;
 }
-
-
-
 a {
   color: seashell;
   font-size: 22px;
