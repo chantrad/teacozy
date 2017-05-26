@@ -1,0 +1,87 @@
+/*General Rules*/
+
+ body {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  width: 1200px
+  }
+
+/*Header Menu*/
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100% auto;
+  border-bottom: 1px solid seashell;
+}
+
+#logo {
+  display: inline-flex;
+
+  padding-left: 10px;
+  height: 50px
+
+
+
+}
+/*parent to li*/
+nav{
+  display: flex;
+  justify-content: space-around;
+  height: 69px;
+  width: 1200px;
+}
+
+li {
+  display: inline-flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 150px;
+  height: 69px;
+  font-size: 22px;
+}
+
+a {
+  color: seashell;
+}
+
+/*Main Contenet*/
+
+section {
+  display: flex;
+}
+
+#mission {
+  width: 1200px
+  height: 700px;
+  background-image: url("../images/img-mission-background.png");
+}
+
+}
+
+
+/*
+header {
+  background-color: black;
+  border-bottom: 1px color: seashell;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+}
+
+
+nav ul li {
+  display: inline-block;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+
+
+a {
+  color: seashell;
+  font-size: 22px;
+  justify-content: space-between;
