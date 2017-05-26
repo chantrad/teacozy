@@ -1,11 +1,11 @@
 /*General Rules*/
 
+
  * body {
   font-family: Helvetica, sans-serif;
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  width: 1200px
   }
 
 /*Header Menu*/
@@ -13,18 +13,18 @@
 header {
   display: flex;
   height: 69px;
-  width: 1200px ;
+  width: 1270px ;
   border-bottom: 1px solid seashell;
 
 }
 div{
   display: flex;
   height: 69px;
-  width: 650px;
+  width: 635px;
 }
 
 #logo {
-  display: inline-flex;
+  justify-content: flex-start;
   padding-left: 10px;
   height: 50px
 
@@ -33,28 +33,20 @@ div{
 /*parent to li*/
 nav{
   display: block;
-  justify-content: flex-end;
   height: 69px;
-  width: 550px;
-
+  width: 635px;
+  padding-left: 10px;
 }
 
 ul {
   display: flex;
   justify-content: flex-end;
-  height: 69px;
-  width: 650px;
-
 }
 
  li {
-  display: inline-flex;
-  justify-content: flex-end;
-  list-style: none;
-  width: 150px;
-  height: 69px;
+  display: inline-block;
   font-size: 22px;
-
+  padding-left: 10px;
 
 }
 
