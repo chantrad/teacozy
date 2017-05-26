@@ -1,6 +1,6 @@
 /*General Rules*/
 
- body {
+ * body {
   font-family: Helvetica, sans-serif;
   color: seashell;
   background-color: black;
@@ -13,30 +13,36 @@
 header {
   display: flex;
   height: 69px;
-  width: 100% auto;
+  width: 1200px ;
   border-bottom: 1px solid seashell;
+
 }
 
 #logo {
   display: inline-flex;
-
   padding-left: 10px;
   height: 50px
 
-
-
 }
+
 /*parent to li*/
 nav{
-  display: flex;
-  justify-content: space-around;
+  display: block;
+  justify-content: flex-end;
   height: 69px;
   width: 1200px;
 }
 
-li {
+ul {
+  display: flex;
+  justify-content: flex-end;
+  height: 69px;
+  width: 900px;
+}
+
+ li {
   display: inline-flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   list-style: none;
   width: 150px;
   height: 69px;
