@@ -5,13 +5,14 @@
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  flex-wrap: wrap;
   }
 
 /*Header Menu*/
   header {
     display: flex;
     height: 69px;
-    width: 1270px ;
+    width: 100% ;
     border-bottom: 1px solid seashell;
   }
 
@@ -24,7 +25,7 @@
 
   nav{
     height: 69px;
-    width: 1073px;
+    width: 100%;
     padding-left: 10px;
   }
 
@@ -44,16 +45,12 @@
     color: seashell;
     }
 
-
-
 /*Main Contenet*/
 
 div {
   width: 1200px;
   margin: auto;
   display: block;
-
-
 }
 
 #mission {
@@ -66,15 +63,10 @@ div {
 
 .message {
     display: block;
-    margin: auto;
     width: 100%;
     background-color: black;
-
+    align-self: center;
   }
 
  h4 h2 {
-  margin: 0px;
-  padding: 10px;
-  font-weight: bold;
-
 }
