@@ -28,7 +28,6 @@ header {
 
 /*parent to li*/
 nav{
-  display: block;
   height: 69px;
   width: 1073px;
   padding-left: 10px;
@@ -42,8 +41,6 @@ ul {
  li {
   display: inline-block;
   font-size: 22px;
-  padding-left: 10px;
-
 }
 
 a {
