@@ -15,16 +15,12 @@ header {
   height: 69px;
   width: 1270px ;
   border-bottom: 1px solid seashell;
+}
 
-}
-div{
-  display: flex;
-  height: 69px;
-  width: 635px;
-}
 
 #logo {
-  justify-content: flex-start;
+  display: inline-block;
+  align-self: center;
   padding-left: 10px;
   height: 50px
 
@@ -34,7 +30,7 @@ div{
 nav{
   display: block;
   height: 69px;
-  width: 635px;
+  width: 1073px;
   padding-left: 10px;
 }
 
