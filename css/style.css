@@ -15,7 +15,7 @@
     width: 100% ;
     border-bottom: 1px solid seashell;
   }
-
+/* logo need fix*/
   #logo {
     display: inline-block;
     align-self: center;
@@ -73,25 +73,19 @@ div {
 .image-container {
   width: 1000px;
   display: flex;
-
-
-
-
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
 .item {
   display:block;
   width: 300px;
-  max-height: -height: 257px
-
 }
 
 img {
   height: 200px;
   width: 300px;
-
-
-
 }
 
 span{
