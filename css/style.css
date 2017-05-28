@@ -53,6 +53,7 @@ div {
   display: block;
 }
 
+
 #mission {
   height: 700px;
   background-image: url("../resources/images/img-mission-background.jpg");
@@ -68,24 +69,32 @@ div {
     align-self: center;
   }
 
-#featured {
+
+.image-container {
   width: 1000px;
   display: flex;
-}
 
-#image-container{
-  width: 0 auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 
 
 
 }
 
 .item {
+  display:block;
+  width: 300px;
+  max-height: -height: 257px
+
+}
+
+img {
   height: 200px;
   width: 300px;
-  margin:10px;
-  display: block;
+
+
+
+}
+
+span{
+  text-align:center;
+  margin: 20px 0px;
 }
