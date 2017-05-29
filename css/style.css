@@ -8,19 +8,25 @@
   flex-wrap: wrap;
   }
 
+.content-container {
+  padding-top: 70px;
+}
 /*Header Menu*/
   header {
     display: flex;
+    position: fixed;
     height: 69px;
     width: 100% ;
     border-bottom: 1px solid seashell;
+    z-index: 1;
   }
 /* logo need fix*/
   #logo {
     display: inline-block;
     align-self: center;
-    padding-left: 10px;
-    height: 50px
+    margin-left: 10px;
+    height: 50px;
+    width:167px;
   }
 
   nav{
@@ -51,15 +57,20 @@ div {
   width:1200px;
   margin:0 auto;
   display: block;
+
 }
 
 
 #mission {
+
+  top: auto;
   height: 700px;
   background-image: url("../resources/images/img-mission-background.jpg");
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
+  padding-top: 70px;
 }
 
 .message {
@@ -73,9 +84,10 @@ div {
 .image-container {
   width: 1000px;
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
-  height: 100%;
+
+
+
 }
 
 .item {
@@ -83,12 +95,18 @@ div {
   width: 300px;
 }
 
+
+
+
 img {
   height: 200px;
   width: 300px;
+  margin: 20px;
+
 }
 
 span{
   text-align:center;
-  margin: 20px 0px;
+  font-size: 22px;
+  font-weight: bold;
 }
