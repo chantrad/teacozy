@@ -18,7 +18,7 @@
     height: 69px;
     width: 100% ;
     border-bottom: 1px solid seashell;
-    z-index: 1;
+
   }
 /* logo need fix*/
   #logo {
@@ -57,20 +57,20 @@ div {
   width:1200px;
   margin:0 auto;
   display: block;
+  background-color: black;
 
 }
 
 
 #mission {
-
   top: auto;
   height: 700px;
   background-image: url("../resources/images/img-mission-background.jpg");
+  align-items: center;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 
-  padding-top: 70px;
+}
+
 }
 
 .message {
@@ -109,4 +109,23 @@ span{
   text-align:center;
   font-size: 22px;
   font-weight: bold;
+}
+
+
+#location {
+
+    background-image: url(../resources/images/img-location-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+.box {
+
+  display: block;
+  flex-wrap: wrap;
+  width: 300px;
+
+    height: 277px;
+    background: black;
+    margin: 15px 40px 0 0;
 }
