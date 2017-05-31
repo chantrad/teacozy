@@ -1,67 +1,75 @@
 /*General Rules*/
- * body {
+
+ body  {
   font-family: Helvetica, sans-serif;
+  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  display: block;
   text-align: center;
   flex-wrap: wrap;
-  }
+}
 
 .content-container {
   padding-top: 70px;
 }
+
 /*Header Menu*/
-  header {
-    display: flex;
-    position: fixed;
-    height: 69px;
-    width: 100% ;
-    border-bottom: 1px solid seashell;
-  }
 
-/* logo need fix*/
-  #logo {
-    display: inline-block;
-    align-self: center;
-    margin-left: 10px;
-    height: 50px;
-    width:167px;
-  }
-
-  nav{
-    height: 69px;
-    width: 100%;
-    padding-left: 10px;
-  }
-
-/*parent to li*/
-  ul {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10px;
-  }
-
-   li {
-    display: inline-block;
-    font-size: 22px;
-    padding: 10px;
-  }
-
-  a {
-    color: seashell;
-    }
-
-/*Main Contenet*/
-
-div  {
-  width: 1200px;
-  margin:0 auto;
-  display: block;
-  background-color: black;
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
 }
 
 
+/* logo need fix*/
+
+#logo {
+  display: inline-block;
+  align-self: center;
+  margin-left: 10px;
+  height: 50px;
+  width: 167px;
+}
+
+nav {
+  height: 69px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+
+/*parent to li*/
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+li {
+  display: inline-block;
+  font-size: 22px;
+  padding: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+
+/*Main Contenet*/
+
+div {
+  width: 1200px;
+  margin: 0 auto;
+  display: block;
+  background-color: black;
+}
 
 #mission {
   height: 700px;
@@ -72,16 +80,15 @@ div  {
 
 #featured {
   padding: 35px;
-
 }
 
-.title  {
-    display: block;
-    width: 1200px;
-    background-color: black;
-    align-self: center;
-  }
-
+.title {
+  display: block;
+  width: 1200px;
+  font-size: 33px
+  background-color: black;
+  align-self: center;
+}
 
 .image-container {
   width: 1000px;
@@ -90,12 +97,9 @@ div  {
 }
 
 .item {
-  display:block;
+  display: block;
   width: 300px;
 }
-
-
-
 
 img {
   height: 200px;
@@ -103,50 +107,73 @@ img {
   margin: 20px;
 }
 
-span{
-  text-align:center;
+span {
+  text-align: center;
   font-size: 22px;
   font-weight: bold;
 }
 
-
 #locations {
-    height: 500px;
-    background-image: url("../resources/images/img-locations-background.jpg");
-    justify-content: center;
-    padding-top: 70px;
+  height: 500px;
+  background-image: url("../resources/images/img-locations-background.jpg");
+  justify-content: center;
+  flex-direction: column;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
 }
 
-  #locations .flex-container {
-        display: flex;
-        width: 1100px;
-        justify-content: center;
-      }
+#locations .flex-container {
+  display: flex;
+  width: 1100px;
+  height: 300px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px 50px;
+}
 
-
+h4{
+  font-size: 22px;
+}
+h3{
+  font-size: 25.74px;
+}
 h2 {
-  display: block;
+
   width: 1200px;
-
-  align-self: center;
-
+  font-size: 33px;
 }
-  /*  justify-content: center;
+
+ h2 h3 h4 {
+  margin: 0;
+  padding: 10px;
+  display: block;
+  align-self: center;
+}
+
+p {
+  display: block;
+  text-align: center;
+}
+
+/*  justify-content: center;
     align-items: center;*/
 
+.location {
+  opacity: 1.0;
+  background-color: black;
+  width: 300px;
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: seashell;
+}
 
-
- .location {
-     opacity: 1.0;
-     background-color: inherit;
-     width: 300px;
-     margin: 15px 20px;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-
-     color: seashell;
- }
+#copyright {
+  text-align: left;
+  padding-left: 20px;
+}
 
 
 }
