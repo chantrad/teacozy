@@ -1,5 +1,4 @@
 /*General Rules*/
-
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -7,54 +6,65 @@ body {
   opacity: 0.9;
   background-color: black;
   margin: 0;
-}
+  }
 
+
+}
 /*Header Menu*/
-header {
-  position: fixed;
-  height: 69px;
-  width;
-  100%;
-  border-bottom: 1px solid seashell;
-  display: flex;
-}
+  header {
+    position: fixed;
+    height: 69px;
+    width: 1200px;
+    border-bottom: 1px solid seashell;
+    display: flex;
 
-#logo {
-  position: absolute;
-  display: inline-block;
-  align-self: center;
-  margin-left: 10px;
-  height: 50px;
-  width: 167px
-}
-nav {
+  }
+/* logo need fix*/
+  #logo {
+     position: absolute;
+     display: inline-block;
+     align-self: center;
+     margin-left: 10px;
+     height: 50px;
+     width: 167px
+
+  }
+
+  nav{
   height: 69px;
   width: 100%;
   padding-right: 10px;
-}
 
-ul {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 10px;
-}
-li {
-  display: inline-block;
-  font-size: 22px;
-  padding: 10px;
-}
-a {
-  color: seashell;
-}
+  }
 
-/*Main Content*/
+/*parent to li*/
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+
+   li {
+    display: inline-block;
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  a {
+    color: seashell;
+    }
+
+/*Main Contenet*/
+
 div {
-  width: 1200px;
+  width:1200px;
   margin: auto;
   display: block;
   background-color: black;
   text-align: center;
 }
+
+
 #mission {
   top: auto;
   height: 700px;
@@ -62,65 +72,87 @@ div {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
+
 }
+
 .banner {
-  display: block;
-  width: 100%;
-  background-color: black;
-  align-self: center;
-  text-align: center;
-}
+    display: block;
+    width: 100%;
+    background-color:black;
+    align-self: center;
+    text-align: center;
+
+  }
+
+
 .container {
-  margin-bottom: 70px;
-  width: 1000px;
-  display: flex;
-  flex-wrap: wrap;
+   margin-bottom: 70px;
+   width: 1000px;
+   display: flex;
+   flex-wrap: wrap;
+
+
+
+
 }
 .item {
-  display: block;
+  display:block;
   width: 300px;
 }
+
 img {
   display: block;
   height: 200px;
   width: 300px;
   margin: 10px;
 }
-span {
+
+span{
   display: block;
   padding: 5px;
-  text-align: center;
+  text-align:center;
   font-size: 22px;
   font-weight: bold;
 }
+
+
 .location {
-  margin: auto;
-  width: 1200px;
-  height: 500px;
-  background-image: url("../resources/images/img-locations-background.jpg");
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
+    margin: auto;
+    width: 1200px;
+    height: 500px;
+    background-image: url("../resources/images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
+
 #locations {
   background-color: transparent;
+
 }
+
+
 .column {
-  margin-top: -50px;
-  font-weight: normal;
-  height: 277px;
-  box-sizing: border-box;
-  flex-basis: 25%;
+    margin-top: -50px;
+    font-weight: normal;
+    height: 277px;
+    box-sizing: border-box;
+    flex-basis: 25%;
 }
+
+
+
 footer {
-  width: 1200px;
-  height: 200px;
-  display: block;
-  font-size: 22px;
+    width: 1200px;
+    height: 200px;
+    display: block;
+    font-size: 22px;
 }
+
 .copyright {
   text-align: left;
   padding-left: 20px;
