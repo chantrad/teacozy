@@ -1,179 +1,127 @@
 /*General Rules*/
 
- body  {
-  font-family: Helvetica, sans-serif;
+body {
+  font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: black;
   opacity: 0.9;
-  display: block;
-  text-align: center;
-  flex-wrap: wrap;
-}
-
-.content-container {
-  padding-top: 70px;
+  background-color: black;
+  margin: 0;
 }
 
 /*Header Menu*/
-
 header {
-  display: flex;
   position: fixed;
   height: 69px;
-  width: 100%;
+  width;
+  100%;
   border-bottom: 1px solid seashell;
+  display: flex;
 }
 
-
-/* logo need fix*/
-
 #logo {
+  position: absolute;
   display: inline-block;
   align-self: center;
   margin-left: 10px;
   height: 50px;
-  width: 167px;
+  width: 167px
 }
-
 nav {
   height: 69px;
   width: 100%;
-  padding-left: 10px;
+  padding-right: 10px;
 }
-
-
-/*parent to li*/
 
 ul {
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
 }
-
 li {
   display: inline-block;
   font-size: 22px;
   padding: 10px;
 }
-
 a {
   color: seashell;
 }
 
-
-/*Main Contenet*/
-
+/*Main Content*/
 div {
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   display: block;
   background-color: black;
+  text-align: center;
 }
-
 #mission {
+  top: auto;
   height: 700px;
   background-image: url("../resources/images/img-mission-background.jpg");
-  align-items: center;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
-#featured {
-  padding: 35px;
-}
-
-.title {
+.banner {
   display: block;
-  width: 1200px;
-  font-size: 33px
+  width: 100%;
   background-color: black;
   align-self: center;
+  text-align: center;
 }
-
-.image-container {
+.container {
+  margin-bottom: 70px;
   width: 1000px;
   display: flex;
   flex-wrap: wrap;
 }
-
 .item {
   display: block;
   width: 300px;
 }
-
 img {
+  display: block;
   height: 200px;
   width: 300px;
-  margin: 20px;
+  margin: 10px;
 }
-
 span {
+  display: block;
+  padding: 5px;
   text-align: center;
   font-size: 22px;
   font-weight: bold;
 }
-
-#locations {
+.location {
+  margin: auto;
+  width: 1200px;
   height: 500px;
   background-image: url("../resources/images/img-locations-background.jpg");
-  justify-content: center;
-  flex-direction: column;
-  opacity: 1.0;
-  padding: 10px;
-  margin: 5px 20px;
-}
-
-#locations .flex-container {
+  background-repeat: no-repeat;
   display: flex;
-  width: 1100px;
-  height: 300px;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
   flex-wrap: wrap;
-  margin: 0px 50px;
 }
-
-h4{
+#locations {
+  background-color: transparent;
+}
+.column {
+  margin-top: -50px;
+  font-weight: normal;
+  height: 277px;
+  box-sizing: border-box;
+  flex-basis: 25%;
+}
+footer {
+  width: 1200px;
+  height: 200px;
+  display: block;
   font-size: 22px;
 }
-h3{
-  font-size: 25.74px;
-}
-h2 {
-
-  width: 1200px;
-  font-size: 33px;
-}
-
- h2 h3 h4 {
-  margin: 0;
-  padding: 10px;
-  display: block;
-  align-self: center;
-}
-
-p {
-  display: block;
-  text-align: center;
-}
-
-/*  justify-content: center;
-    align-items: center;*/
-
-.location {
-  opacity: 1.0;
-  background-color: black;
-  width: 300px;
-  margin: 5px 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: seashell;
-}
-
-#copyright {
+.copyright {
   text-align: left;
   padding-left: 20px;
-}
-
-
 }
